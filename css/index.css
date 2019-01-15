@@ -223,17 +223,27 @@ footer {
 
 
 
-@media screen and (max-width: 800px) {
-    .menu, .main-content, .middle-img, .bottom-content, .text-content {
-  width:100%;
-  background: red;
-}
-}
+@media only screen and (max-width: 800px) {
+  .container {
+    width:100%;
+    background: red;
+  }
+    #navbar {         
+      flex-flow: column-reverse nowrap;
+  }
+} 
 
-@media screen and (max-width: 500px) {
-.menu, .main-content, .middle-img, .bottom-content, .text-content {
+
+
+
+
+/* @media only screen and (max-width: 500px) {
+.container {
 width:100%;
-background: red;
+background: burlywood;
 }
-}
+}  */
+
+
+
 
