@@ -222,16 +222,42 @@ footer {
 }
 
 
+/* media queries CSS */
 
 @media only screen and (max-width: 800px) {
   .container {
     width:100%;
     background: red;
   }
-    #navbar {         
+ #navbar {         
       flex-flow: column-reverse nowrap;
-  }
-} 
+  } 
+.logo {
+  margin-top: 50px;
+}
+.aHref {
+  display: flex;
+  justify-content: space-between;
+  margin: 45px 42px;
+  font-size: 16px;
+}
+#headerImage {
+  display: none;
+}
+.cta {
+  justify-content: center;
+        padding-top: 75px;
+        border-bottom: 0px;
+        height: 450px;
+}
+.cta-text {
+  font-size: 72px
+}
+
+}
+
+
+
 
 
 
